@@ -2,40 +2,22 @@ header{
     display: flex;
     justify-content: center;
     margin: 5% 5% 5% 5%;
-}
-nav{
-    position: absolute;
-    top: 2%;
-    right: 5%;
-}
-nav ol{
-    list-style-type:none ;
-    
-}
-nav li{
-    color: white;
-    display: inline-block;
-    margin:  0;
-    padding: 10px;
-    border-radius: 10% ;
-}
-nav li:hover{
-    background-color: #b44848;
+    color: white   ;
 }
 .apresentacao{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.apresentacao p{
+
+.apresentacao__img{
+    border-radius: 100%;
+    width: 40%;
+    
+}
+.apresentacao__nome{
     margin-top: 5%;
     font-size: 35px;
 }
 
-header img{
-    border-radius: 100%;
-
-    width: 40%;
-    
-}
 

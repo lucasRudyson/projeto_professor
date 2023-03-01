@@ -5,44 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/nav.css">
+    <link rel="stylesheet" href="assets/css/main/main.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
     <title>Aula 01</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <body>
-    <header>
+    <header class="cabecalho">
         
-        <nav class="navegacao">
-            <ol>
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="#"><li>Projetos</li></a>
-                <a href="#"><li>Acadêmicos</li></a>
-                <a href="#"><li>Sobre</li></a>
-                <a href="#"><li>Contatos</li></a>
+        <nav class="nav">
+            <ol class="nav__lista">
+                <a href="index.html" class="nav__link"><li class="nav__itens">Inicio</li></a>
+                <a href="#" class="nav__link"><li class="nav__itens">Projetos</li></a>
+                <a href="#" class="nav__link"><li class="nav__itens">Acadêmicos</li></a>
+                <a href="#" class="nav__link"><li class="nav__itens">Sobre</li></a>
+                <a href="#" class="nav__link"><li class="nav__itens">Contatos</li></a>
             </ol>
         </nav>
         
         <div class="apresentacao">
-            <img src="assets/img/perna.jpg" alt="foto de perfil">
-            <p>Bartira Falcão </p>
+            <img src="assets/img/perna.jpg" alt="foto de perfil" class="apresentacao__img">
+            <p class="apresentacao__nome">Bartira Falcão </p>
         </div>
     </header>
     <main>
         <div class="abas">
-            <h3>SOBRE</h3>
+            <h3 class="abas__titulo">SOBRE</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident maxime nobis impedit sit possimus, nihil vel maiores eaque, nesciunt facere veritatis doloribus corporis eligendi, dolore asperiores itaque sequi. Harum, possimus.</p>
-            <button>Sabia mais...</button>
+            <button class="abas__botao">Sabia mais...</button>
         </div>
         <div class="abas">
-            <h3>ACADÊMICOS</h3>
+            <h3 class="abas__titulo">ACADÊMICOS</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident maxime nobis impedit sit possimus, nihil vel maiores eaque, nesciunt facere veritatis doloribus corporis eligendi, dolore asperiores itaque sequi. Harum, possimus.</p>
-            <button>Sabia mais...</button>
+            <button class="abas__botao">Sabia mais...</button>
         </div>
         <div class="abas">
-            <h3>PROJETOS</h3>
+            <h3 class="abas__titulo">PROJETOS</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident maxime nobis impedit sit possimus, nihil vel maiores eaque, nesciunt facere veritatis doloribus corporis eligendi, dolore asperiores itaque sequi. Harum, possimus.</p>
-            <button>Sabia mais...</button>
+            <button class="abas__botao">Sabia mais...</button>
         </div>
     </main>
     <footer>

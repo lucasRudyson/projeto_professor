@@ -1,0 +1,32 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+
+}
+.abas{
+    text-align: justify;
+    background-color:#808080 ;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    border: #fff 1px solid;
+}
+.abas:hover{
+    background-color: #909090;
+}
+.abas__titulo{
+    
+    margin: 5% 0 10% 0;
+    text-align: center;
+}
+.abas__botao{
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    margin-left: 30%;
+    border-radius: 10px;
+    
+}

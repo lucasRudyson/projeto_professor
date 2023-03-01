@@ -1,0 +1,19 @@
+.nav{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+.nav__lista{
+    list-style-type:none ;
+    
+}
+.nav__itens{
+    color: white;
+    display: inline-block;
+    margin:  0;
+    padding: 10px;
+    border-radius: 10% ;
+}
+.nav__itens:hover{
+    background-color: #b44848;
+}
