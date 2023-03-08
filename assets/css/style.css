@@ -46,10 +46,10 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 1%;
-    margin: 1% 0;
+    margin: 0 1% 0 0;
 }
 .abas:nth-child(2n+1){
-    margin: 2%;
+    margin: 0 2%;
 }
 .abas__titulo{
     text-align: center;
