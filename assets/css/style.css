@@ -18,8 +18,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
-    
+    justify-content: start; 
 }
 .apresentacao__img{
     width: 180px;
