@@ -1,8 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #383838;
 }
 .cabecalho{
-    background-color: aqua;
+    background-color: rgb(226, 238, 238);
 }
 .cabecalho-lista{
     display: flex;
@@ -23,12 +24,12 @@ body{
 .apresentacao__img{
     width: 180px;
     border-radius: 50px;
-    margin: 0 2% 0 10%;
+     margin: 0 2% 0 10%; 
 
 }
 .apresentacao__titulo{
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 .apresentacao__descricao{
     margin-top: 2%;
@@ -39,27 +40,46 @@ main{
    justify-content: space-between; 
 }
 .abas{
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 1em;
     width: 34%;
-    height: 500px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    height: 50%;
+   
     padding: 1%;
-    margin: 0 1% 0 0;
+    margin: 0 1% 5% 0;
 }
-.abas:nth-child(2n+1){
-    margin: 0 2%;
-}
+ .abas:nth-child(2n+1){
+    margin-left:2%;
+    margin-right: 2%;
+} 
 .abas__titulo{
     text-align: center;
     font-size: 2em;
-    margin: 1%;
-    font-weight: bold;
+    margin: 5% 0;
+    font-weight: 700;
+    color: #383838;
 }
 .abas__texto{
+    text-align: justify;
     margin: 0 2%;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.5;
+}
+.abas__itens{
+    
+    text-align: start;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.abas__botao{
+    margin:  5% 35% ;
+    border-radius: 5%;
+    justify-content: center;
+    width: 30%;
+    background-color: aqua;
+    padding: 2%;   
+    text-align: center;
 }
