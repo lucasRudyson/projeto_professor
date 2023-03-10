@@ -82,7 +82,7 @@ main{
     text-decoration: underline;
 }
 .abas__texto{
-    text-align: start;
+    text-align: center;
     margin: 0 2%;
     font-size: 1.2em;
     font-weight: 400;
@@ -90,11 +90,12 @@ main{
 }
 .abas__itens{
     
-    text-align: start;
+    text-align: center;
     font-size: 1.2em;
     line-height: 1.5;
 }
 .abas__botao{
+    
     margin:  5% 35% ;
     border-radius: 15%;
     justify-content: center;
@@ -102,4 +103,6 @@ main{
     background-color: rgb(255, 242, 174);
     padding: 5%;   
     text-align: center;
+    text-decoration: none;
+    color: #383838;
 }
